@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorBackground"
+    tools:context="com.rchospitals.raincityhospitals.Page.menu">
+
+    <ImageView
+        android:background="@drawable/backgeound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/rs"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/button"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Rumah Sakit"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/maps"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/button"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Maps"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/spesialist"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="110dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Dokter Spesialis"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="110dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Data Diri"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="110dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Keluar"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        style="?android:attr/borderlessButtonStyle" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#deffc2be</color>
+    <color name="colorPrimaryDark">#deffc2be</color>
+    <color name="colorPrimaryMarvel">#b53f3f</color>
+    <color name="colorPrimaryDarkMarvel">#9f3430</color>
+    <color name="colorPrimaryButton">#ec5d5d</color>
+    <color name="colorAccent">#404040</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorTextInfo">#404040</color>
+    <color name="colorTextTitle">#ffffff</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="colorWhite">#fff</color>
+
+    <color name="colorTurquoise">#ff00ffff</color>
+    <color name="colorLightTurquoise">#CCFFFF</color>
+    <color name="c">#00FFFF</color>
+    <color name="b">#ff00ffff</color>
+    <color name="a">#ff00ffff</color>
+
+
+</resources>
+
